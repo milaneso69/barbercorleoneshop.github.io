@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Barbería Corleones</title>
+  <meta name="title" content="Corleones">
+  <meta name="description" content="Paginaproyecto">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - flaticon
+  -->
+  <link rel="stylesheet" href="assets/css/flaticon.min.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li class="header-top-item">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">llamanos :</p>
+
+            <a href="tel:01234567895" class="item-link">271-195-4505</a>
+          </li>
+
+          <li class="header-top-item">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">Horarios :</p>
+
+            <p class="item-text">Lunes a Viernes de 1 a 8 pm</p>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+        
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">
+          Corleones
+          <span class="span"></span>
+        </a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Pagina principal</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link" data-nav-link>Servicios</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#pricing" class="navbar-link" data-nav-link>Precios</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#gallery" class="navbar-link" data-nav-link>Galeria</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#appointment" class="navbar-link" data-nav-link>Cita</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Contactanos</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="btn has-before">
+          <span class="span">Cita</span>
+
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-before has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/images/hero-banner.jpg')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">Corleones barbershop</h1>
+
+          <p class="hero-text">
+            Sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            suspendisse
+            ultrices gravida
+          </p>
+
+          <a href="#" class="btn has-before">
+            <span class="span">Nuestros servicios</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICIOS
+      -->
+
+      <section class="section service" id="services" aria-label="services">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Servicios</h2>
+
+          <p class="section-text text-center">
+            Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-salon"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Corte de cabello</a>
+                </h3>
+
+                <p class="card-text">
+                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-shampoo"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Lavado</a>
+                </h3>
+
+                <p class="card-text">
+                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-hot-stone"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Productos</a>
+                </h3>
+
+                <p class="card-text">
+                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-treatment"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Tratamientos</a>
+                </h3>
+
+                <p class="card-text">
+                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-shaving-razor"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Estilizado</a>
+                </h3>
+
+                <p class="card-text">
+                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-hair-dye"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Tinte</a>
+                </h3>
+
+                <p class="card-text">
+                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="section gallery" id="gallery" aria-label="photo gallery">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <h2 class="h2 section-title">Galeria</h2>
+
+              <p class="section-text">
+                Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua
+                suspendisse
+              </p>
+            </div>
+
+            <a href="#" class="btn has-before">
+              <span class="span">Explorar</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/gallery-1.jpg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Hair Cutting</h3>
+
+                  <p class="card-text">Barbers & Salon Services</p>
+
+                  <a href="#" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/gallery-2.jpg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Hair Cutting</h3>
+
+                  <p class="card-text">Barbers & Salon Services</p>
+
+                  <a href="#" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/gallery-3.jpg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Hair Cutting</h3>
+
+                  <p class="card-text">Barbers & Salon Services</p>
+
+                  <a href="#" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/gallery-4.jpg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Hair Cutting</h3>
+
+                  <p class="card-text">Barbers & Salon Services</p>
+
+                  <a href="#" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CITA
+      -->
+
+      <section class="section appoin" id="appointment" aria-label="appointment">
+        <div class="container">
+
+          <div class="appoin-card">
+
+            <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+              <img src="./assets/images/appoin-banner-1.jpg" width="250" height="774" loading="lazy" alt=""
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <h2 class="h2 section-title">Agendar cita</h2>
+
+              <p class="section-text">
+                Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua
+                suspendisse
+              </p>
+
+              <form action="" class="appoin-form">
+
+                <div class="input-wrapper">
+                  <input type="text" name="Nombre" placeholder="Nombre completo" required class="input-field">
+
+                  <input type="email" name="Correo" placeholder="Correo electronico" required class="input-field">
+                </div>
+
+                <div class="input-wrapper">
+                  <input type="text" name="Telefono" placeholder="Numero telefonico" required class="input-field">
+
+                  <select name="categoria" class="input-field">
+
+                    <option value="Selecciona una categoria">Selecciona una categoria</option>
+                    <option value="Corte">Corte</option>
+                    <option value="Estilizado">Estilizado</option>
+                    <option value="Venta de producto">Venta de</option>
+                
+
+                  </select>
+                </div>
+
+                <input type="date" name="fecha" required class="input-field date">
+
+                <textarea name="mnsginfo" placeholder="Mas informacion" required class="input-field"></textarea>
+
+                <button type="submit" class="form-btn">
+                  <span class="span">Agendar cita</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </form>
+
+            </div>
+
+            <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+              <img src="./assets/images/appoin-banner-2.jpg" width="250" height="774" loading="lazy" alt=""
+                class="img-cover">
+            </figure>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          
+      </div>
+
+    </div>
+  </footer>
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+</body>
+
+</html>
